@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ko" lang="ko">
+<head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<meta name="copyright" content="© Copyright IBM Corporation 2022" />
+<meta name="DC.Rights.Owner" content="© Copyright IBM Corporation 2022" />
+<meta name="DC.Type" content="topic" />
+<meta name="DC.Title" content="IBM ILOG CPLEX Optimization Studio 22.1.1" />
+<meta name="abstract" content="" />
+<meta name="Description" content="" />
+<meta name="DC.Format" content="XHTML" />
+<meta name="DC.Identifier" content="COS_installer_readme" />
+<meta name="DC.Language" content="en-us" />
+<meta name="IBM.Country" content="ZZ" />
+<!-- Licensed Materials - Property of IBM -->
+<!-- US Government Users Restricted Rights -->
+<!-- Use, duplication or disclosure restricted by -->
+<!-- GSA ADP Schedule Contract with IBM Corp. -->
+<link rel="stylesheet" type="text/css" href="./ibmdita.css" />
+<title>IBM ILOG CPLEX Optimization Studio 22.1.1</title>
+</head>
+<body id="COS_installer_readme"><div role="main">
+
+<h1 class="title topictitle1" id="ariaid-title1">IBM ILOG CPLEX Optimization Studio 22.1.1</h1>
+
+
+<div class="body"><p class="shortdesc"></p>
+
+<p class="p">IBM® ILOG® CPLEX® Optimization Studio 는 계획 및 스케줄링 문제점의 전체 범위에 대해 효율적인 최적화 모델 및 최신 애플리케이션을 빌드하는 가장 빠른 방법을 제공합니다. 통합 개발 환경, 설명 모델링 언어, 내장 도구 및 수학적 프로그래밍 및 제한조건 프로그래밍 모두에 대한 최신 솔루션을 사용하여 전체 모델 개발 및 솔루션 프로세스를 지원합니다.</p>
+
+<p class="p">CPLEX 최적화 스튜디오는 여러 컴포넌트들을 포함한다. 각 구성요소는 설치 위치의 서브폴더 ( Linux의 서브디렉토리) 에 있습니다. 각 구성요소의 API및 커넥터는 구성요소 서브폴더 (서브디렉토리) 에 있습니다.</p>
+
+<ul class="ul">
+<li class="li"><code class="ph codeph">opl</code>: OPL 모델링 환경 및 IDE (Integrated Development Environment)</li>
+
+<li class="li"><code class="ph codeph">cplex</code>: 심플렉스, 배리어 및 혼합 정수 최적화 프로그램을 포함하는 CPLEX Optimizer</li>
+
+<li class="li"><code class="ph codeph">cpoptimizer</code>: 제한조건 프로그래밍 기술을 사용하는 CP 최적화 프로그램</li>
+
+<li class="li"><code class="ph codeph">concert</code>: 최적화 프로그램에서 사용할 C++ 모델링 계층</li>
+
+<li class="li"><code class="ph codeph">python</code>: CPLEX및 CP 최적화 프로그램용 Python 모델링 계층 DOcplex 설치</li>
+
+</ul>
+
+<p class="p">기타 디렉토리:</p>
+
+<ul class="ul">
+<li class="li"><code class="ph codeph">doc</code>: 문서의 HTML 버전</li>
+
+<li class="li"><code class="ph codeph">license</code>: 라이센스 계약 문서</li>
+
+<li class="li"><code class="ph codeph">swidtag</code>: 자원 명세 정보</li>
+
+<li class="li"><code class="ph codeph">Uninstall</code>: 제품 및 설치 로그를 설치 제거하는 데 필요한 정보</li>
+
+</ul>
+
+<section class="section"><h2 class="title sectiontitle">문서 및 릴리스 정보</h2>
+
+<p class="p">CPLEX Optimization Studio V22.1.1 에 대한 전체 문서는 <a class="xref" href="https://www.ibm.com/docs/en/icos/22.1.1" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)">IBM ILOG CPLEX Optimization Studio 22.1.1문서</a>를 참조하십시오.</p>
+
+<p class="p">릴리스 정보에 액세스하려면 <a class="xref" href="https://www.ibm.com/docs/en/icos/22.1.1?topic=documentation-introducing-ilog-cplex-optimization-studio-2211" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)">IBM ILOG CPLEX Optimization Studio 22.1.1릴리스 정보</a>를 클릭하십시오.</p>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">제품 지원</h2>
+
+<p class="p">지원, 팁 및 제품 뉴스는 <a class="xref" href="https://www.ibm.com/analytics/decision-optimization/support" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)">지원 홈</a>을 참조하십시오.</p>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">세부적인 시스템 요구 사항</h2>
+
+<p class="p">자세한 시스템 요구사항 및 플랫폼 정보는 <a class="xref" href="https://www.ibm.com/support/pages/detailed-system-requirements-ibm-ilog-cplex-optimization-studio" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)"> IBM ILOG CPLEX Optimization Studio</a>을 참조하십시오.</p>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">Windows에 설치하기</h2><p class="p">Windows의 경우, IBM ILOG CPLEX Optimization Studio 의 기본 설치 위치는 다음과 같습니다.</p>
+<p class="p"><code class="ph codeph">C:\Program
+Files\IBM\ILOG\CPLEX_Studio2211</code></p>
+<p class="p">Community Edition 의 설치 위치는 다음과 같습니다.</p>
+<p class="p"><code class="ph codeph">C:\Program Files\IBM\ILOG\CPLEX_Studio_Community2211</code></p>
+<p class="p">설치 중에 다른 위치를 선택했을 수 있습니다. 이 위치는 이 문서의 나머지 부분에서 <code class="ph codeph">[install_dir]</code> 로 참조됩니다.</p>
+<p class="p"><strong class="ph b">중요 정보</strong></p>
+<p class="p">CPLEX 최적화 스튜디오는 Windows 플랫폼에서 단일 포트로 제공됩니다. 해당 포트 ( <code class="ph codeph">x64_windows_msvc14</code>) 는 Visual Studio 2019및 Visual Studio 2022와 호환 가능합니다. Visual Studio 버전과 서로의 호환성에 대한 자세한 내용은 <a class="xref" href="https://docs.microsoft.com/en-us/cpp/porting/binary-compat-2015-2017?view=vs-2019" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)">Visual Studio 버전 간 C++ 바이너리 호환성</a>을 참조하십시오.</p>
+<p class="p">이 제품에는 Microsoft Visual C++ Redistributable 패키지 (x64 버전) 가 필요합니다. <a class="xref" href="https://aka.ms/vs/17/release/vc_redist.x64.exe" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)"> Microsoft Visual C++ Redistributable Package (x64)</a>패키지를 다운로드할 수 있습니다.</p>
+<p class="p"><strong class="ph b">IDE</strong></p>
+<p class="p">시작 메뉴 항목을 사용하여 IDE를 실행할 수 있다.</p>
+<p class="p"><strong class="ph b">시작 > 모든 앱 > CPLEX Optimization Studio 22.1.1 > CPLEX Studio IDE 22.1.1</strong></p>Community Edition의 경우:<p class="p"><strong class="ph b">시작 > 모든 앱 > CPLEX Optimization Studio Community Edition 22.1.1 > CPLEX Studio IDE 22.1.1</strong></p>
+<p class="p"><strong class="ph b">자세한 정보</strong></p>
+<p class="p">Windows 플랫폼의 CPLEX Optimizer에 대한 자세한 정보는 <code class="ph codeph">[install_dir]\cplex\readmeWindows.html</code>의 내용을 참조하십시오.</p>
+<p class="p">Windows 플랫폼에서 CP Optimizer에 대한 자세한 정보는 <code class="ph codeph">[install_dir]\cpoptimizer\readmeWindows.html</code>의 내용을 참조하십시오.</p>
+</section>
+
+<section class="section"><h2 class="title sectiontitle"><strong class="ph b"> Linux</strong></h2>
+
+<p class="p">Linux 설치 프로그램은 실행 파일이며 설치를 실행하려면 파일에 실행 권한이 있어야 하며 명령행에서 실행해야 합니다. 예를 들어, <code class="ph codeph">./&lt;installername&gt;.bin</code>명령을 실행하십시오. 여기서 <code class="ph codeph">&lt;installername&gt;</code> 은 설치 프로그램의 이름입니다. <code class="ph codeph">chmod u+x
+&lt;installername&gt;.bin</code>명령을 사용하여 파일 실행 권한을 제공할 수 있습니다.</p>
+
+<p class="p">Linux IBM ILOG CPLEX Optimization Studio 의 기본 설치 위치는 다음과 같습니다.</p>
+
+<p class="p"><code class="ph codeph">/opt/ibm/ILOG/CPLEX_Studio2211</code></p>
+
+<p class="p">Community Edition 의 설치 위치는 다음과 같습니다.</p>
+
+<p class="p"><code class="ph codeph">/opt/ibm/ILOG/CPLEX_Studio_Community2211</code></p>
+
+<p class="p"><strong class="ph b">IDE</strong></p>
+
+<p class="p">Linux IDE를 실행할 수 있습니다.</p>
+
+<p class="p">1. 터미널 창 열기</p>
+
+<p class="p">2. 디렉토리를 <code class="ph codeph">[install_dir]/opl/oplide</code> 로 변경하십시오.</p>
+
+<p class="p">3. 명령을 입력하십시오. <code class="ph codeph">./oplide</code></p>
+
+<p class="p">또는 터미널 위치에서 절대 경로를 입력하십시오.</p>
+
+<p class="p"><code class="ph codeph">[install_dir]/opl/oplide/oplide</code></p>
+
+<p class="p"><strong class="ph b">자세한 정보</strong></p>
+
+<p class="p">CPLEX Optimizer에 대한 자세한 정보는 <code class="ph codeph">[install_dir]/cplex/readmeUNIX.html</code>의 내용을 참조하십시오.</p>
+
+<p class="p">CP 최적화 프로그램에 대한 자세한 정보는 <code class="ph codeph">[install_dir]/cpoptimizer/readmeUNIX.html</code>의 내용을 참조하십시오.</p>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">macOS에 설치하기</h2>
+
+<p class="p">macOS에서 IBM ILOG CPLEX Optimization Studio 의 기본 설치 위치는 다음과 같습니다.</p>
+
+<p class="p"><code class="ph codeph">/Applications/CPLEX_Studio2211</code></p>
+
+<p class="p">Community Edition 의 설치 위치는 다음과 같습니다.</p>
+
+<p class="p"><code class="ph codeph">/Applications/CPLEX_Studio_Community2211</code></p>
+
+<p class="p"><strong class="ph b">IDE</strong></p>
+
+<p class="p">파인더에서 IDE를 실행할 수 있습니다. <code class="ph codeph">[install_dir]/opl/oplide/Oplide</code>.</p>
+
+<p class="p"><strong class="ph b">자세한 정보</strong></p>
+
+<p class="p">CPLEX Optimizer에 대한 자세한 정보는 <code class="ph codeph">[install_dir]/cplex/readmeUNIX.html</code>의 내용을 참조하십시오.</p>
+
+<p class="p">CP 최적화 프로그램에 대한 자세한 정보는 <code class="ph codeph">[install_dir]/cpoptimizer/readmeUNIX.html</code>의 내용을 참조하십시오.</p>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">CPLEX 최적화 스튜디오 자동 설치</h2>
+
+<p class="p"><a class="xref" href="https://www.ibm.com/docs/en/icos/22.1.1?topic=2211-silent-installation-cplex-optimization-studio" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)"><em class="ph i">CPLEX Optimization Studio 자동 설치</em></a>문서를 참조하십시오.</p>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">CPLEX 최적화 스튜디오 설치 제거</h2>
+
+<p class="p"><a class="xref" href="https://www.ibm.com/docs/en/icos/22.1.1?topic=2211-uninstalling-cplex-optimization-studio" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)"><em class="ph i">CPLEX Optimization Studio 설치 제거</em>문서를 참조하십시오.</a></p>
+
+</section>
+
+<section class="section"><h2 class="title sectiontitle">문제의 해결 방법: 22.1.1</h2>
+
+<p class="p"><a class="xref" href="https://www.ibm.com/support/pages/node/596025" target="_blank" rel="noopener" title="(새 탭 또는 창에서 열기)"><em class="ph i">ILOG CPLEX Optimization Studio 수정사항 목록</em></a>문서를 참조하십시오.</p>
+
+</section>
+
+<p class="p">IBM ILOG CPLEX Optimization Studio 라이센스가 있는 자료- IBM. (c) 저작권 IBM Corp. 1987, 2022. All Rights Reserved. U.S. Government Users Restricted Rights-Use, duplication or disclosure restricted by GSA ADP Schedule Contract with IBM Corp. IBM, IBM 로고, ibm.com ®, WebSphere®, ILOG및 CPLEX는 미국 또는 기타 국가에서 사용되는 International Business Machines의 상표 또는 등록상표입니다. Linux 또는 기타 국가에서 사용되는 Linus Torvalds의 등록상표입니다. Microsoft및 Windows는 미국 또는 기타 국가에서 사용되는 Microsoft Corporation의 상표입니다. Java및 모든 Java 기반 상표와 로고는 Oracle 및/또는 계열사의 상표 또는 등록상표입니다. 기타 회사, 제품 또는 서비스 이름은 타사의 상표 또는 서비스표입니다.</p>
+
+</div>
+
+</div></body>
+</html>
+<!-- latest : caits-dev-app-test_caits-at-tool_20221110T204757-1_en_ko -->
