@@ -1,0 +1,3 @@
+C:\Users\82104\anaconda3\envs\sil
+C:\Users\82104\anaconda3\envs\seung
+C:\Users\82104\anaconda3\envs\ok
